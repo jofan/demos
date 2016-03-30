@@ -1,0 +1,22 @@
+{
+  "name": "component-demo",
+  "repo": "jofan/component-demo",
+  "description": "Demo of using Component framework",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "btknorr/bootstrap": "*",
+    "component/marked": "*",
+    "component/classes": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "paths": ["lib"],
+  "local": ["flipper"],
+  "styles": [
+    "component-demo.css"
+  ]
+}

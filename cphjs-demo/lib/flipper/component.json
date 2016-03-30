@@ -1,0 +1,13 @@
+{
+  "name": "flipper",
+  "repo": "jofan/flipper",
+  "description": "CSS3 flip of block element",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "flipper.css"
+  ]
+}

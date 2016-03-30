@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CPHJS Demo</title>
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>CPHJS Markdown Editor</h1>
+      <div class="row">
+        <div class="span6 flip-container">
+          <button id="convertBtn" class="btn btn-primary pull-right">Convert</button>
+          <button id="flipBtn" class="btn pull-right">View HTML</button>
+          <div class="flipper">
+            <div class="front">
+              <textarea id="markdown"></textarea>
+            </div>
+            <div class="back">
+              <div id="output"></div>
+            </div>
+          </div>
+        </div>
+        <div id="preview" class="span6">
+
+        </div>
+      </div>
+    </div>
+    <script src="build/build.js"></script>
+    <script>
+      var init = require('component-demo');
+      init();
+    </script>
+  </body>
+</html>
